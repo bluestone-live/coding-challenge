@@ -11,13 +11,11 @@ This exercise has two goals:
 - It helps us to understand what to expect from you as a developer. How do you write production code, how you reason about design and how you communicate when trying to understand a problem before you solve it.
 - It helps you get a feel for what it is like to work at BlueStone, as this exercise aims to simulate our day-to-day.
 
-We believe this technique is not only better, but also is more fun compared to the whiteboard/quiz interviews so common in the industry.
-
-We appreciate your time and we look forward to hack on this little project together.
+We believe this technique is not only better, but also is more fun compared to the whiteboard/quiz interviews so common in the industry. We appreciate your time and we look forward to hack on this little project together.
 
 ## Objective
 
-The goal is to implement a job automation system that is able to execute jobs concurrently and a web client that supports creating jobs, executing jobs and viewing job status in real-time.
+The goal is to implement a job automation system that is able to execute jobs concurrently and a web client that supports creating jobs, executing jobs and viewing job status in real time.
 
 ## Requirements
 
@@ -53,7 +51,7 @@ The interview team is assembled in the slack channel and consists of the enginee
 
 We understand that the interview is a two-sided process and we’d be happy to answer any questions!
 
-Before writing the actual code, we encourage you to **create a small design document** and share it with the team by making a pull request on GitHub. This document should consist of key trade-offs and key design approaches. Please avoid writing an overly detailed design document. Use this document to make sure the team can provide design feedback and demonstrate that you have investigated the problem space to provide a reasonable design.
+Before writing the actual code, we encourage you to **create a small design document** and share it with the team by making a pull request on GitHub. This document should consist of key design approaches and key trade-offs. Please avoid writing an overly detailed design document. Use this document to make sure the team can provide design feedback and demonstrate that you have investigated the problem space to provide a reasonable design.
 
 Fork this repo, split your code submission using pull requests and give the team an opportunity to review the PRs. A good “rule of thumb” to follow is that the final PR submission is adding a small feature set - it means that the team had an opportunity to contribute the feedback during multiple well defined stages of your work.
 
@@ -103,6 +101,10 @@ We want to be as transparent as possible on how we will be scoring your submissi
 - The client-server communication is implemented in a secure way.
 - The web user interface is easy to use.
 - The candidate demonstrates ability to handle and apply feedback.
+
+### Timeline
+
+Because this project simulates day-to-day work which involves design, implementation, code review and feedback, there will be a certain amount of communication overhead for sure. And we know candidates may have different levels of availability, so we don't have a hard deadline for this project. But we expect a working deliverable within two weeks assuming both you and the interview team working actively on this project. Don't worry if you need more time, just let us know!
 
 ## Asking questions
 
