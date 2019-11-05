@@ -41,8 +41,6 @@ You may wonder what exactly a given task is running against? It does not really 
 
 ### Interview Process
 
-The interview team is assembled in the slack channel and consists of the engineers who will be working with you. You are encouraged to chat to them and ask questions about the engineering culture, work and life balance, or anything else that you would like to learn about BlueStone.
-
 We understand that the interview is a two-sided process and we’d be happy to answer any questions!
 
 Before writing the actual code, we encourage you to **create a small design document** and share it with the team by making a pull request on GitHub. This document should consist of key design approaches and key trade-offs. Please avoid writing an overly detailed design document. Use this document to make sure the team can provide design feedback and demonstrate that you have investigated the problem space to provide a reasonable design.
@@ -58,7 +56,7 @@ It is important to write as little code as possible. Otherwise, this task could 
 Here are some trade-offs that will help you to spend less time on the task:
 
 - Do not implement a system that scales or is highly performing. Instead, communicate the performance improvements you add in the future.
-- High availability. It is OK if the system is not highly available. Write down how would you make the system highly available and why your system is not.
+- High availability. It is OK if the system is not highly available. Write down how you would make the system highly available and why your system is not.
 - Do not try to achieve full test coverage. This will take too long. Implement one or two test cases for key components to demonstrate your approach to testing.
 
 ### Delivery
