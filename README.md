@@ -4,20 +4,14 @@
 
 Design and implement a prototype job automation system with a simple web front-end.
 
-## Rationale
-
-This exercise has two goals:
+This challenge has two goals:
 
 - It helps us to understand what to expect from you as a developer. How do you write production code, how you reason about design and how you communicate when trying to understand a problem before you solve it.
-- It helps you get a feel for what it is like to work at BlueStone, as this exercise aims to simulate our day-to-day.
-
-We believe this technique is not only better, but also is more fun compared to the whiteboard/quiz interviews so common in the industry. We appreciate your time and we look forward to hack on this little project together.
-
-## Objective
-
-The goal is to implement a job automation system that is able to execute jobs concurrently and a web client that supports creating jobs, executing jobs and viewing job status in real time.
+- It helps you get a feel for what it is like to work at BlueStone, as this challenge aims to simulate our workflow.
 
 ## Requirements
+
+The goal is to implement a job automation system that is able to execute jobs concurrently and a web client that supports creating jobs, executing jobs and viewing job status in real time.
 
 ### Client
 
@@ -26,7 +20,7 @@ Here is a list of features that the web client should support:
 - Create a task with name. Tasks are building blocks for a specific job.
 - Create a job with name and associated tasks. A user can select a set of tasks from all available tasks and order them in any sequence.
 - Display a list of all created jobs with associated tasks.
-- Start a job. It should support running multiple jobs in parallel without breaking the application.
+- Start jobs. It should support running multiple jobs in parallel without breaking the application.
 - A user can easily identify the status of a job or a task in real time. For example, status can be *idle*, *running* or *finished*.
 
 To illustrate what a job list might look like:
@@ -41,7 +35,7 @@ Job 3: [Task 1]
 
 The server should be able to handle client's requests as mentioned above.
 
-You may wonder what exactly a given task is running against? It does not really matter for this exercise, so, for simplicity, each task does nothing but sleeps for 3 ~ 5 seconds at random to simulate it's working on something.
+You may wonder what exactly a given task is running against? It does not really matter for this project, so, for simplicity, each task does nothing but sleeps for 3 ~ 5 seconds at random to simulate it's working on something.
 
 ## Guidance
 
@@ -53,21 +47,9 @@ We understand that the interview is a two-sided process and we’d be happy to a
 
 Before writing the actual code, we encourage you to **create a small design document** and share it with the team by making a pull request on GitHub. This document should consist of key design approaches and key trade-offs. Please avoid writing an overly detailed design document. Use this document to make sure the team can provide design feedback and demonstrate that you have investigated the problem space to provide a reasonable design.
 
-Fork this repo, split your code submission using pull requests and give the team an opportunity to review the PRs. A good “rule of thumb” to follow is that the final PR submission is adding a small feature set - it means that the team had an opportunity to contribute the feedback during multiple well defined stages of your work.
+After we approved your design, you can fork this repo and start implementation. Split your code submission using pull requests and give the team an opportunity to review the PRs. A good “rule of thumb” to follow is that each PR submission is adding a small feature set. Our team will do the best to review your submitted pull requests in a reasonable time frame.
 
-Our team will do their best to provide a high quality review of the submitted pull requests in a reasonable time frame. You are spending your time on this. We are going to contribute our time too.
-
-After the final submission, the interview team will assemble and vote using +1, -2 anonymous voting system: +1 is submitted whenever a team member accepts the submission, -2 otherwise.
-
-If there is a positive result for submission, we will schedule you phone interviews with each member of the interview team. After the calls, the interview team will vote again using the same voting mechanism.
-
-If there is a positive result for phone interviews, we will collect one/two references and work out the other details. After reference collection, we will send you an offer.
-
-In case of a negative score result, we will contact you and send a list of the key observations from the team that affected the result. Please don’t be discouraged. Our code review process is focused on the submission, not the candidate and we will be excited for you to take another challenge at a later time if you feel you have addressed our comments!
-
-### Code and project ownership
-
-This is a test challenge and we have no intent of using the code you have submitted in production. This is your work, and you are free to do whatever you’d like with it.
+If you submission is accepted, we will schedule you a phone interview with the team. In the case of rejection, please don’t be discouraged. You are welcome to take another challenge at a later time.
 
 ### Trade-offs
 
@@ -79,15 +61,15 @@ Here are some trade-offs that will help you to spend less time on the task:
 - High availability. It is OK if the system is not highly available. Write down how would you make the system highly available and why your system is not.
 - Do not try to achieve full test coverage. This will take too long. Implement one or two test cases for key components to demonstrate your approach to testing.
 
-## Delivery
+### Delivery
 
 This project can be implemented in any language/framework/technology of your choice.
 
 Once you finished the project, please share with us a live demo URL with some jobs populated.
 
-### Scoring
+### Evaluation
 
-We want to be as transparent as possible on how we will be scoring your submission. The following list provides a description of different areas you will be evaluated on:
+We want to be as transparent as possible on how we will be evaluating your submission. The following list provides a description of different areas you will be evaluated on:
 
 - The candidate communicated their progress during the interview.
 - The candidate outlined the key design points in the design document.
@@ -104,7 +86,7 @@ We want to be as transparent as possible on how we will be scoring your submissi
 
 ### Timeline
 
-Because this project simulates day-to-day work which involves design, implementation, code review and feedback, there will be a certain amount of communication overhead for sure. And we know candidates may have different levels of availability, so we don't have a hard deadline for this project. But we expect a working deliverable within two weeks assuming both you and the interview team working actively on this project. Don't worry if you need more time, just let us know!
+Because this project simulates day-to-day work which involves design, implementation, code review and feedback, there will be a certain amount of communication overhead for sure. And we understand candidates may have different levels of availability, so we don't impose a hard deadline for this project. We usually expect a working deliverable within two weeks, so please let us know if you need extra time.
 
 ## Asking questions
 
@@ -124,4 +106,4 @@ We expect candidates to be able to find solutions to common non-project specific
 
 Finally, THANK YOU for taking your time to take the challenge. We understand that your time is valuable and we really appreciate it!
 
-We wish you good luck!
+Have fun!
