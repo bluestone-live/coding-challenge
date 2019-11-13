@@ -17,8 +17,8 @@ The goal is to implement a job automation system that is able to execute jobs co
 
 Here is a list of features that the web client should support:
 
-- Create a task with name. Tasks are building blocks for a specific job.
-- Create a job with name and associated tasks. A user can select a set of tasks from all available tasks and order them in any sequence.
+- Create a task with name. Tasks are building blocks for a specific job. A task can be created but not used by any job.
+- Create a job with name and associated tasks. A user can select a set of tasks from all available tasks and order them in any sequence. Modification to a job is not allowed after it's created.
 - Display a list of all created jobs with associated tasks.
 - Start jobs. It should support running multiple jobs in parallel without breaking the application.
 - A user can easily identify the status of a job or a task in real time. For example, status can be *idle*, *running* or *finished*.
