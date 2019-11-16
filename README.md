@@ -17,19 +17,21 @@ The goal is to implement a job automation system that is able to execute jobs co
 
 Here is a list of features that the web client should support:
 
-- Create a task with name. Tasks are building blocks for a specific job. A task can be created but not used by any job.
-- Create a job with name and associated tasks. A user can select a set of tasks from all available tasks and order them in any sequence. Modification to a job is not allowed after it's created.
-- Display a list of all created jobs with associated tasks.
+- Create a **Task Blueprint** with name. A task blueprint can be used to create a task instance, which is the building block for a specific job.
+- Create a **Job** with name and associated task instances. A user can select a set of tasks from all available task blueprints and order them in any sequence. Modification to a job and its task sequence is not allowed after the job was created.
+- Display a list of all created jobs with associated task instances.
 - Start jobs. It should support running multiple jobs in parallel without breaking the application.
 - A user can easily identify the status of a job or a task in real time. For example, status can be *idle*, *running* or *finished*.
 
 To illustrate what a job list might look like:
 
 ```
-Job 1: [Task 1 -> Task 2 -> Task 3]
-Job 2: [Task 3 -> Task 2]
-Job 3: [Task 1]
+Job 1: [T1 -> T2 -> T3]
+Job 2: [T3 -> T2]
+Job 3: [1]
 ```
+
+In the above example, task instance `T1` was created from task blueprint `B1` after `Job 1` was created.
 
 ### Server
 
