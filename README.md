@@ -35,7 +35,9 @@ In the above example, task instance `T1` was created from task blueprint `B1` af
 
 ### Server
 
-The server should be able to handle client's requests as mentioned above.
+The server should be able to handle client's requests as mentioned above. 
+
+The data should be stored on server-side and visible to the public.
 
 You may wonder what exactly a given task is running against? It does not really matter for this project, so, for simplicity, each task does nothing but sleeps for 3 ~ 5 seconds at random to simulate it's working on something.
 
