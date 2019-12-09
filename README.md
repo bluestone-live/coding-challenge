@@ -28,7 +28,7 @@ To illustrate what a job list might look like:
 ```
 Job 1: [T1 -> T2 -> T3]
 Job 2: [T3 -> T2]
-Job 3: [1]
+Job 3: [T1]
 ```
 
 In the above example, task instance `T1` was created from task blueprint `B1` after `Job 1` was created.
