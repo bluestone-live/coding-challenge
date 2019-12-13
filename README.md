@@ -47,11 +47,11 @@ You may wonder what exactly a given task is running against? It does not really 
 
 We understand that the interview is a two-sided process and we’d be happy to answer any questions!
 
-Before writing the actual code, we encourage you to **create a small design document** and share it with the team through email. This document should consist of key design approaches and key trade-offs. Please avoid writing an overly detailed design document. Use this document to make sure the team can provide design feedback and demonstrate that you have investigated the problem space to provide a reasonable design.
+Before writing the actual code, we encourage you to **create a small design document** and share it with the team. This document should consist of key design approaches and key trade-offs. Please avoid writing an overly detailed design document. Use this document to make sure the team can provide design feedback and demonstrate that you have investigated the problem space to provide a reasonable design.
 
-After we approved your design, you can start implementation. Once you finished the project, please submit your solution via email.
+After we approved your design, you can start the implementation.
 
-If you submission is accepted, we will schedule you a phone interview with the team. In the case of rejection, please don’t be discouraged. You are welcome to take another challenge at a later time.
+If your submission is accepted, we will schedule you a phone interview with the team. In the case of rejection, please don’t be discouraged. You are welcome to take another challenge at a later time.
 
 ### Trade-offs
 
@@ -65,11 +65,15 @@ Here are some trade-offs that will help you to spend less time on the task:
 
 ### Delivery
 
-This project can be implemented in any language/framework/technology of your choice.
+First, please create a private repo on a hosted Git service such as GitHub or GitLab. Invite your project collaborator (as mentioned in *Contact* section) to the repo.
 
-Once you finished the project, please deploy your project for demo purpose, make sure to populate some jobs in the demo. 
+Next, create a design document in the private repo. Email us the repo link so we can review your design.
 
-Finally, email your solution and the live demo URL to the team.
+After we approved your design, you can start the implementation.
+
+Once you finished the project, please deploy your project for demo purpose, make sure to populate some jobs in the demo. Include the live demo URL in your repo.
+
+Finally, let us know so we can review your solution.
 
 ### Evaluation
 
@@ -110,7 +114,8 @@ We expect candidates to be able to find solutions to common non-project specific
 
 ## Contact
 
-Email: careers@bluestone.live
+- Email: careers@bluestone.live
+- Project collaborator: info@desmonding.me
 
 Finally, THANK YOU for taking your time to take the challenge. We understand that your time is valuable and we really appreciate it!
 
