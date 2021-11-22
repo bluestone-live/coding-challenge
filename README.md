@@ -114,9 +114,6 @@ We expect candidates to be able to find solutions to common non-project specific
 
 ## Contact
 
-- Email: careers@bluestone.live
-- Project collaborator: info@desmonding.me
-
 Finally, THANK YOU for taking your time to take the challenge. We understand that your time is valuable and we really appreciate it!
 
 Have fun!
